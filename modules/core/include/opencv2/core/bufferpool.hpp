@@ -7,6 +7,11 @@
 #ifndef OPENCV_CORE_BUFFER_POOL_HPP
 #define OPENCV_CORE_BUFFER_POOL_HPP
 
+#ifdef _MSC_VER
+#pragma warning(push)
+#pragma warning(disable: 4265) // class has virtual functions, but destructor is not virtual
+#endif
+
 namespace cv
 {
 
@@ -27,5 +32,9 @@ public:
 //! @}
 
 }
+
+#ifdef _MSC_VER
+#pragma warning(pop)
+#endif
 
 #endif // OPENCV_CORE_BUFFER_POOL_HPP
