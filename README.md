@@ -3,6 +3,8 @@
 Do not use this repo alone, use the master repo
 https://github.com/ivsgroup/hunter_master
 
+Status / push upstream : voir https://github.com/opencv/opencv/pull/9122
+
 ### OpenCV: Open Source Computer Vision Library
 
 #### Resources
